@@ -7,7 +7,7 @@ TEventEmitter is an enhanced event emitter that supports type-safe event keys. W
 Here's a quick example demonstrating how to use TEventEmitter to create and handle type-safe events:
 
 ```typescript
-import { TEventEmitter, Key } from 't-emitter';
+import { TEventEmitter } from 't-event-emitter';
 
 // Create a TEventEmitter instance
 const emitter = new TEventEmitter();
