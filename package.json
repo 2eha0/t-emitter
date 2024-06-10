@@ -1,0 +1,34 @@
+{
+  "name": "t-event-emitter",
+  "version": "1.0.0",
+  "description": "A Type-Safe Event Emitter",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "ts-node ./index.test.ts",
+    "build": "tsup index.ts --format cjs,esm --dts --clean",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "typescript",
+    "emitter",
+    "event",
+    "type-safe"
+  ],
+  "author": "Zehao Zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
