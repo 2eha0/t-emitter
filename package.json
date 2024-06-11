@@ -15,7 +15,7 @@
   "scripts": {
     "test": "ts-node ./index.test.ts",
     "build": "tsup index.ts --format cjs,esm --dts --clean",
-    "prepublishOnly": "pnpm run build"
+    "prepublishOnly": "pnpm run test && pnpm run build"
   },
   "keywords": [
     "typescript",
