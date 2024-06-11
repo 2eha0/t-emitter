@@ -12,6 +12,11 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist/",
+    "README.md",
+    "license"
+  ],
   "scripts": {
     "test": "ts-node ./index.test.ts",
     "build": "tsup index.ts --format cjs,esm --dts --clean",
@@ -23,7 +28,7 @@
     "event",
     "type-safe"
   ],
-  "author": "Zehao Zhang",
+  "author": "Zehao Zhang<zehao93@outlook.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.2",
