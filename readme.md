@@ -1,5 +1,7 @@
 # TEventEmitter
 
+![npm](https://img.shields.io/npm/dm/t-event-emitter.svg)
+
 TEventEmitter is an enhanced event emitter that supports type-safe event keys. With TEventEmitter, you can create string or symbol keys and ensure type safety when emitting and listening to events.
 
 ## Usage Example
