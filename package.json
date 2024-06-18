@@ -5,6 +5,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": "https://github.com/2eha0/t-event-emitter",
   "exports": {
     ".": {
       "require": "./dist/index.js",
